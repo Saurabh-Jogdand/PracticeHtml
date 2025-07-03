@@ -1,0 +1,104 @@
+/* • Definition: Pixels (px) are fixed-size units, 
+representing a dot on a computer screen.
+ • Precision: Allows for precise control over 
+element dimensions.
+ • Graphics & Web Design: Commonly used in 
+graphics and web design for setting font sizes, 
+margins, and more.
+ • Cross-Browser Consistency: Provides 
+consistency across different browsers.
+ • High-DPI Displays: Can vary in appearance on 
+high-DPI (dots per inch) displays */
+
+h1{
+            color: darkviolet;
+            /*This is Normal Color Property*/
+            background-color: #7777/* Definition: Sets the background color of an element.
+ • Syntax: Utilized as background-color: color;
+ • Visual Appeal: Enhances the visual appeal and contrast 
+of webpage elements*/
+
+/* Color Model : 
+• RGB Model: Creates colors by mixing Red (R), 
+Green (G), and Blue (B) light sources.
+ • Additive Model: More light means increased 
+brightness.
+ • Primary Colors: R, G, and B are the 
+foundational colors.
+ • White & Black: All combined yield white; 
+absence equals black.
+ • Color Depth: Allows for millions of color 
+variations
+
+
+It has also color Picker Present Present in our Color Properties it appears when we hover on the actual color box.  
+and also we can use the rgb(200,0,0) it tells the color picker to How much red green and blue to pick to form the resultant color.
+
+here we can also tell how much opacity to keep using the 
+Alpha chnnel scaling from 0 to 1 :1 is the original version and all are like faded versions.
+
+Similary : for making this easy the HEX color Model was introduced : 
+ Hexadecimal Codes: Represents colors using 
+hexadecimal values, consisting of 6 digits 
+combined from numbers and letters (A-F).
+ • Syntax: Written as #RRGGBB
+ • Easy Color Matching: Facilitates easy color 
+matching with graphic design tools and 
+branding colors.
+ • Web Standards: Widely supported and a 
+common standard for defining colors in web 
+desig
+
+here we define the coor using the #2ffff like this 
+
+
+*/
+        }
+
+
+        h2{
+            background-color: rgba(200,0,0,0.23);
+        }
+
+h3{ 
+    color: purple;
+    background-color: skyblue;
+    height: 40px;
+    width: 40px;
+}
+
+/*    Backgrouund Image Propeerties:
+
+Usage: Adds an image as a background to elements.
+ • Syntax: Defined using background-image: 
+url('path/to/image’);.
+ • Repetition: Control image repetition using 
+background-repeat.
+ • Positioning: Adjust image position using background
+position.
+ • Size Control: Manipulate image size using 
+background-size.
+ • Background-Attachment: Sets whether the 
+background image scrolls with the element or 
+remains fixed.
+ • Shorthand (color, image, repeat, attachment, 
+position) */
+
+
+p{
+    background-image: url(image.png) ;
+    background-size: contain;
+    background-attachment: scroll;
+    background-position: 30%;
+    
+
+}
+
+ /* Usage: Controls the visibility of elements without changing the layout.
+ • Values: Can take visible, hidden, or collapse as values.
+ • Space Occupancy: Even when hidden, the element occupies space.
+ • Interactivity: Hidden elements are not accessible to user interactions */
+
+ p{
+    visibility: collapse;
+ }

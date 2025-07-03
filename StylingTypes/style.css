@@ -1,0 +1,30 @@
+/* This is our learning of color property */
+h3{
+    color: chartreuse;
+}
+
+/*There are mainly Three Types Of Styling:
+1.inline styling : 
+ Direct Application: Apply styles directly to HTML elements using 
+the style attribute. 
+• One-off Changes: Ideal for single, unique style alterations.
+ • Can Be Cluttered: May lead to cluttered HTML if used extensively.
+ • Limited Reusability: Reduces the reusability of CSS rules in larger 
+projects
+
+2.Internal Syling:
+• Embedded CSS: Styles are placed within <style> tags in the 
+HTML head section. 
+• Cleaner than Inline: More organized compared to inline styles.
+ • Reusable Styles: Allows for some reuse of styles across the 
+page.
+
+External Styling : 
+• Separate CSS File: Stores styles in a separate .css file, linked to HTML. 
+• Reusable: Enables style reuse across multiple webpages.
+ • Link in HTML: Use the <link> tag within the <head> section to link the CSS.
+ • Relative or Absolute Path: The href attribute can contain a relative or 
+absolute path to the CSS file.
+
+
+*/

@@ -1,0 +1,35 @@
+h3{
+    color: chartreuse;
+}
+
+/* ID Property: Assigns a unique identifier to a single HTML element.
+ • Class Property: Allows grouping of multiple HTML elements to style 
+them collectively. 
+• Reusable Classes: Class properties can be reused across different 
+elements for consistent styling.
+ • Specificity and Targeting: Both properties assist in targeting 
+specific elements or groups of elements for precise styling
+
+Universal Selector
+* — Targets all elements
+Example: * { margin: 0; }
+
+Type Selector
+Targets elements by tag name
+Example: p { color: red; }
+
+Class Selector
+Targets elements with a specific class
+Example: .btn { background: blue; }
+
+ID Selector
+Targets element with a specific ID
+Example: #main { padding: 20px; }
+
+Group Selector
+Combines multiple selectors
+Example: h1, h2, p { font-family: sans-serif; }
+
+Descendant Selector
+Selects elements inside another element
+Example: div p { color: green; }*/
